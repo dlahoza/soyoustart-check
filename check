@@ -1,0 +1,2 @@
+#!/bin/bash
+mess=`/home/dlag/soyoustart/soyoustart $1` || DISPLAY=:0 /usr/bin/notify-send -t 60000 -u critical "Появился $2" "$mess"
